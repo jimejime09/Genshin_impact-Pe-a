@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 197), rgb(188, 247, 255));
+
+
+}
+
+h1{
+    color: mediumaquamarine;
+}
+h2{
+    color: cornflowerblue;
+}
+article h2{
+    color: rgb(205, 241, 241);
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 246, 246);
+}
+
+h3{
+    color: blue;
+}
+
+.titulo {
+background-color: rgb(206, 226, 255);
+animation-name: texto;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-timing-function: ease;
+}
+
+@keyframes texto {
+from{
+    transform: translateX(1000px);
+}
+
+to{
+    transform: translateX(0);
+}
+}
+.lista {
+    list-style-type: circle;
+}
+ .listaDos {
+    list-style-type: square;
+ }
+
+ .negrita{
+    font-weight: bold;
+ }
+
+ .centrar{
+    text-align: center;
+ }
+
+ .fondoBosque{
+    background-image: url("658938.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+ }
+
+ img{
+    width: 100%;
+ }
+
+ iframe {
+ width: 100%;
+height: 80vh;
+ }
+ h3{
+    animation-name: genshin;
+
+ }
+ @keyframes genshin{
+
+ }
